@@ -320,12 +320,13 @@ ul {
     height: 67%;
 }
 .textItem {
-  float: right;
-  text-align: justify;
-  color: white;
-  margin-right: 5%;
-  line-height: 93%;
-  font-family: leagueoflegend;
+     float: right;
+    text-align: justify;
+    color: white;
+    margin-right: 2%;
+    line-height: 83%;
+    font-family: leagueoflegend;
+        font-size: 100%;
 }
 .textItem p{
   font-size: 140%;
@@ -349,11 +350,11 @@ ul {
   height: 100%;
 }
 .infoMain {
-  font-family: leagueoflegend;
-  font-size: 170%;
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
+     font-family: leagueoflegend;
+    font-size: 100%;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
 }
 .card:hover {
   transition: (1s) ease;
@@ -693,9 +694,11 @@ text-align: center;
   }
 .textItem{
   font-size: 80%;
+      margin-right: 5%;
 }
 .imagenItem{
   width: 30%;
+  margin-left: 10%;
 }
 .imagenItem img{
   width: 50%;
@@ -719,5 +722,9 @@ text-align: center;
 option{
   background: black;
   width: 80%;
+}
+.textItem{
+      font-size: 49%;
+    margin-top: -15%;
 }
 }
